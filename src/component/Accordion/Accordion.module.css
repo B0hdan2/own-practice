@@ -1,0 +1,22 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid aqua;
+    border-radius: 5px;
+
+    padding: 5px 15px;
+
+    color: white;
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}

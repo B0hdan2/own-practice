@@ -1,0 +1,28 @@
+.titleBox {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 0.05em;
+    margin-right: auto;
+}
+
+.span {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.infoBox {
+    height: 0;
+    overflow: hidden;
+    transition: height 300ms ease;
+}
+
+.onInfoBox {
+    height: auto;
+    overflow: auto;
+}
