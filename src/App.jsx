@@ -1,4 +1,5 @@
 import Accordion from "./component/Accordion/Accordion";
+import TicTacToe from "./component/TicTacToeGame/TicTacToe";
 
 export default function App() {
   const Array = [
@@ -14,7 +15,7 @@ export default function App() {
     },
     {
       title: "title",
-      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum facere adipisci beatae dignissimos similique consectetur iure. Deleniti voluptas architecto nobis? Perferendis eveniet quod ducimus magnam assumenda quo accusantium repellendus placeat.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum facere adipisci beatae dignissimos similique consectetur iure. Deleniti voluptas architecto nobis? Perferendis eveniet quod ducimus magnam assumenda quo accusantium repellendus placeat.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum facere adipisci beatae dignissimos similique consectetur iure. Deleniti voluptas architecto nobis? Perferendis eveniet quod ducimus magnam assumenda quo accusantium repellendus placeat.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum facere adipisci beatae dignissimos similique consectetur iure. Deleniti voluptas architecto nobis? Perferendis eveniet quod ducimus magnam assumenda quo accusantium repellendus placeat.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum facere adipisci beatae dignissimos similique consectetur iure. Deleniti voluptas architecto nobis? Perferendis eveniet quod ducimus magnam assumenda quo accusantium repellendus placeat.",
+      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum facere adipisci beatae dignissimos similique consectetur iure. Deleniti voluptas architecto nobis? Perferendis eveniet quod ducimus magnam assumenda quo accusantium repellendus placeat.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum facere adipisci beatae dignissimos similique consectetur iure.",
       id: 3,
     },
     {
@@ -47,6 +48,7 @@ export default function App() {
   return (
     <>
       <Accordion infoArray={Array} />
+      <TicTacToe />
     </>
   );
 }

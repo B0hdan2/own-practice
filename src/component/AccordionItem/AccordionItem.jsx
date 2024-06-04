@@ -1,5 +1,8 @@
 import { useRef } from "react";
+
 import { AiFillCaretDown } from "react-icons/ai";
+import { AiFillCaretUp } from "react-icons/ai";
+
 import s from "./AccordionItem.module.css";
 
 export default function AccordionItem({ info, title, onClick, isOpen }) {
@@ -10,7 +13,7 @@ export default function AccordionItem({ info, title, onClick, isOpen }) {
       <div className={s.titleBox}>
         <h3 className={s.title}>{title}</h3>
         <span className={s.span} onClick={onClick}>
-          <AiFillCaretDown />
+          {isOpen ? <AiFillCaretUp /> : <AiFillCaretDown />}
         </span>
       </div>
       <div
