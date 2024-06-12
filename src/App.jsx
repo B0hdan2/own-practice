@@ -1,5 +1,5 @@
 import Accordion from "./component/Accordion/Accordion";
-import Game from "./component/TicTacToeGame/Game/Game";
+import TicTacToeGame from "./component/TicTacToeGame/TicTacToeGame";
 
 export default function App() {
   const Array = [
@@ -47,7 +47,7 @@ export default function App() {
 
   return (
     <>
-      <Game />
+      <TicTacToeGame/>
       <Accordion infoArray={Array} />
     </>
   );
